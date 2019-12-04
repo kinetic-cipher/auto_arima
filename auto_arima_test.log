@@ -1,0 +1,87 @@
+(core_ml) Keiths-MBP:auto_arima keith_kenemer$ python auto_arima_test.py -f
+Analyzing Noisy Sine...
+Fit ARIMA: order=(1, 0, 1); AIC=696.864, BIC=714.452, Fit time=0.069 seconds
+Fit ARIMA: order=(0, 0, 0); AIC=1420.002, BIC=1428.796, Fit time=0.002 seconds
+Fit ARIMA: order=(1, 0, 0); AIC=829.489, BIC=842.680, Fit time=0.012 seconds
+Fit ARIMA: order=(0, 0, 1); AIC=1131.406, BIC=1144.597, Fit time=0.015 seconds
+Fit ARIMA: order=(2, 0, 1); AIC=694.247, BIC=716.232, Fit time=0.079 seconds
+Fit ARIMA: order=(2, 0, 0); AIC=732.644, BIC=750.232, Fit time=0.031 seconds
+Fit ARIMA: order=(2, 0, 2); AIC=488.235, BIC=514.616, Fit time=2.031 seconds
+Fit ARIMA: order=(3, 0, 3); AIC=496.084, BIC=531.260, Fit time=0.534 seconds
+Fit ARIMA: order=(1, 0, 2); AIC=691.671, BIC=713.656, Fit time=0.113 seconds
+Fit ARIMA: order=(3, 0, 2); AIC=491.433, BIC=522.211, Fit time=3.352 seconds
+Fit ARIMA: order=(2, 0, 3); AIC=489.037, BIC=519.816, Fit time=2.657 seconds
+Total fit time: 8.901 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (2, 0, 2), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+Analyzing Up-Ramp...
+Fit ARIMA: order=(1, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(0, 0, 0); AIC=5129.424, BIC=5138.218, Fit time=0.002 seconds
+Fit ARIMA: order=(1, 0, 0); AIC=925.403, BIC=938.594, Fit time=0.086 seconds
+Fit ARIMA: order=(0, 0, 1); AIC=4333.550, BIC=4346.741, Fit time=0.046 seconds
+Fit ARIMA: order=(2, 0, 0); AIC=823.531, BIC=841.119, Fit time=0.149 seconds
+Fit ARIMA: order=(2, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(3, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(3, 0, 0); AIC=811.004, BIC=832.989, Fit time=0.161 seconds
+Total fit time: 0.517 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (3, 0, 0), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+Analyzing Down-Ramp...
+Fit ARIMA: order=(1, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(0, 0, 0); AIC=5131.041, BIC=5139.835, Fit time=0.002 seconds
+Fit ARIMA: order=(1, 0, 0); AIC=926.257, BIC=939.448, Fit time=0.062 seconds
+Fit ARIMA: order=(0, 0, 1); AIC=4335.105, BIC=4348.296, Fit time=0.044 seconds
+Fit ARIMA: order=(2, 0, 0); AIC=824.901, BIC=842.489, Fit time=0.140 seconds
+Fit ARIMA: order=(2, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(3, 0, 1); AIC=nan, BIC=nan, Fit time=nan seconds
+Fit ARIMA: order=(3, 0, 0); AIC=812.798, BIC=834.782, Fit time=0.471 seconds
+Total fit time: 0.790 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (3, 0, 0), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+Analyzing Quadratic-Ramp...
+Fit ARIMA: order=(1, 1, 1); AIC=719.532, BIC=737.113, Fit time=0.058 seconds
+Fit ARIMA: order=(0, 1, 0); AIC=893.943, BIC=902.733, Fit time=0.005 seconds
+Fit ARIMA: order=(1, 1, 0); AIC=762.945, BIC=776.131, Fit time=0.018 seconds
+Fit ARIMA: order=(0, 1, 1); AIC=722.473, BIC=735.659, Fit time=0.025 seconds
+Fit ARIMA: order=(2, 1, 1); AIC=713.422, BIC=735.398, Fit time=0.088 seconds
+Fit ARIMA: order=(2, 1, 0); AIC=715.182, BIC=732.763, Fit time=0.028 seconds
+Fit ARIMA: order=(2, 1, 2); AIC=667.434, BIC=693.806, Fit time=0.240 seconds
+Fit ARIMA: order=(3, 1, 3); AIC=669.812, BIC=704.974, Fit time=0.522 seconds
+Fit ARIMA: order=(1, 1, 2); AIC=668.286, BIC=690.262, Fit time=0.194 seconds
+Fit ARIMA: order=(3, 1, 2); AIC=668.582, BIC=699.349, Fit time=0.314 seconds
+Fit ARIMA: order=(2, 1, 3); AIC=670.143, BIC=700.910, Fit time=0.447 seconds
+Total fit time: 1.945 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (2, 1, 2), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+Analyzing Cubic-Ramp...
+Fit ARIMA: order=(1, 1, 1); AIC=752.260, BIC=769.841, Fit time=0.065 seconds
+Fit ARIMA: order=(0, 1, 0); AIC=900.309, BIC=909.100, Fit time=0.003 seconds
+Fit ARIMA: order=(1, 1, 0); AIC=779.733, BIC=792.919, Fit time=0.015 seconds
+Fit ARIMA: order=(0, 1, 1); AIC=756.317, BIC=769.503, Fit time=0.016 seconds
+Fit ARIMA: order=(2, 1, 1); AIC=745.780, BIC=767.756, Fit time=0.092 seconds
+Fit ARIMA: order=(2, 1, 0); AIC=744.268, BIC=761.849, Fit time=0.029 seconds
+Fit ARIMA: order=(3, 1, 1); AIC=720.856, BIC=747.228, Fit time=0.215 seconds
+Fit ARIMA: order=(3, 1, 0); AIC=745.489, BIC=767.466, Fit time=0.038 seconds
+Fit ARIMA: order=(3, 1, 2); AIC=674.107, BIC=704.874, Fit time=0.269 seconds
+Fit ARIMA: order=(2, 1, 2); AIC=672.932, BIC=699.303, Fit time=0.218 seconds
+Fit ARIMA: order=(2, 1, 3); AIC=675.638, BIC=706.405, Fit time=0.411 seconds
+Fit ARIMA: order=(3, 1, 3); AIC=645.119, BIC=680.281, Fit time=5.553 seconds
+Total fit time: 6.928 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (3, 1, 3), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+Analyzing Fourth-power Ramp...
+Fit ARIMA: order=(1, 1, 1); AIC=830.931, BIC=848.512, Fit time=0.069 seconds
+Fit ARIMA: order=(0, 1, 0); AIC=923.606, BIC=932.396, Fit time=0.002 seconds
+Fit ARIMA: order=(1, 1, 0); AIC=835.199, BIC=848.385, Fit time=0.018 seconds
+Fit ARIMA: order=(0, 1, 1); AIC=836.951, BIC=850.137, Fit time=0.014 seconds
+Fit ARIMA: order=(2, 1, 1); AIC=792.455, BIC=814.431, Fit time=1.825 seconds
+Fit ARIMA: order=(2, 1, 0); AIC=826.110, BIC=843.692, Fit time=0.039 seconds
+Fit ARIMA: order=(2, 1, 2); AIC=681.359, BIC=707.731, Fit time=0.389 seconds
+Fit ARIMA: order=(3, 1, 3); AIC=675.205, BIC=710.368, Fit time=0.825 seconds
+Fit ARIMA: order=(2, 1, 3); AIC=673.375, BIC=704.142, Fit time=5.665 seconds
+Fit ARIMA: order=(1, 1, 2); AIC=682.019, BIC=703.996, Fit time=0.143 seconds
+Fit ARIMA: order=(1, 1, 3); AIC=681.540, BIC=707.911, Fit time=0.194 seconds
+Total fit time: 9.187 seconds
+{'callback': None, 'disp': 0, 'maxiter': None, 'method': None, 'order': (2, 1, 3), 'out_of_sample_size': 0, 'scoring': 'mse', 'scoring_args': None, 'seasonal_order': None, 'solver': 'lbfgs', 'start_params': None, 'suppress_warnings': True, 'transparams': True, 'trend': None, 'with_intercept': True}
+=====================
+
